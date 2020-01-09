@@ -1,0 +1,19 @@
+{
+  "name": "log-search-log-ordering",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjacobs-r7/log-search-log-ordering.git"
+  },
+  "author": "Robin Jacobs <robin_jacobs@rapid7.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rjacobs-r7/log-search-log-ordering/issues"
+  },
+  "homepage": "https://github.com/rjacobs-r7/log-search-log-ordering#readme"
+}
