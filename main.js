@@ -2,6 +2,7 @@ const Net = require('net');
 
 const PORT = 10000;
 const HOST = '0.0.0.0';
+const REGION = 'eu';
 const WINDOW_SECONDS = 10;
 const FLUSH_INTERVAL_SECONDS = 5;
 let _socket = null;
@@ -22,7 +23,7 @@ const getSocket = () => {
     console.log(`Opening socket...`);
     _socket = new Net.createConnection({
       port: 10000,
-      host: 'data.logentries.com',
+      host: `${REGION}.data.logs.insight.rapid7.com`,
     });
   };
 
